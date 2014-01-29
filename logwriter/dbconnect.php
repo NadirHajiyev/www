@@ -19,4 +19,6 @@ if (!mysqli_query($con,$sql))
   {
   die('Error: ' . mysqli_error($con));
   }
+
+echo "<center><h3>Success!!!</h3><h3>Log is imported</br>";
 ?>
