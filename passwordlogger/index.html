@@ -1,0 +1,21 @@
+<html>
+<head></head>
+
+<body>
+<center><h1>Password logger</h1></center>
+<center><h3>Add your password</h3></center>
+<form action="dbconnect.php" method="GET">
+<table>
+	<tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+	<tr><td>URL:</td><td><input type="text" name="url"></td></tr>
+	<tr><td>Username:</td><td><input type="text" name="username"></td></tr>
+	<tr><td>Password:</td><td><input type="text" name="password"></td></tr>
+	<tr><td></td><td><input type="submit" value="Add"></td></tr>
+</table>
+</form>
+
+<form action=dbselect.php methor="GET">
+<input type=submit value="View all passwords from the database">
+</form>
+</body>
+</html>
